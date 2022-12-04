@@ -1,12 +1,6 @@
 # Bug Bounty
 
-**🌱 Coming soon!**
-
-****
-
-A bug bounty program with Immunefi was launched on October 11, 2022. This bug bounty program is focused on the Beanstalk smart contracts and preventing the loss of user funds.&#x20;
-
-The maximum bounty is 1,100,000 Beans.
+The Root token contract is considered in-scope of the Beanstalk Immunefi Bug Bounty Program. The maximum bounty is 1,100,000 Beans.
 
 You can find the bug bounty program and submit bug reports [here](https://immunefi.com/bounty/beanstalk).
 
@@ -14,7 +8,7 @@ In order to be considered for the maximum potential reward, bug reports must com
 
 Bug reports that do not come with a PoC and code implementing a fix may qualify for a maximum of up to 30% of the potential reward outlined below, as determined by the Beanstalk Immunefi Committee (BIC). You can read more about the BIC here:
 
-* BIC Process
-* BIC Dashboard
+* [BIC Process](https://docs.bean.money/almanac/governance/beanstalk/bic-process)
+* [BIC Dashboard](https://docs.bean.money/almanac/governance/beanstalk/bic-dashboard)
 
-All vulnerabilities noted in [any Halborn audit reports or the Trail of Bits audit report](https://github.com/BeanstalkFarms/Beanstalk-Audits) (or otherwise known by the BIC or Beanstalk Community Multisig) are not eligible for a reward.
+All vulnerabilities noted in [any Halborn audit reports or the Trail of Bits audit report](https://github.com/BeanstalkFarms/Beanstalk-Audits) (or otherwise known by the BIC or [Beanstalk Community Multisig](https://docs.bean.money/almanac/governance/beanstalk/bcm-dashboard)) are not eligible for a reward.

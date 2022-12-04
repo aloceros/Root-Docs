@@ -6,7 +6,7 @@ In theory, Root should balance ensuring sufficient time for all Root owners to c
 
 In practice, the owner of Root has the exclusive and unilateral ability to commit RIPs, and vote in Beanstalk governance, at any time. The owner of each implementation of Root enforces a governance mechanism.
 
-[Root](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26) is governed by Root DAO. Root DAO governs upgrades to [0x77700005BEA4DE0A78b956517f099260C2CA9a26](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26), the use of Stalk in Beanstalk governance and the treatment of non-Beanstalk-native yield earned by [0x77700005BEA4DE0A78b956517f099260C2CA9a26](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26). Any account that owns Roots can participate in Root DAO governance.
+[Root](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26) is governed by Root DAO. Roost DAO governs upgrades to [0x77700005BEA4DE0A78b956517f099260C2CA9a26](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26), the use of Stalk in Beanstalk governance and the treatment of non-Beanstalk-native yield earned by [0x77700005BEA4DE0A78b956517f099260C2CA9a26](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26). Any account that owns Roots can participate in Root DAO governance.
 
 RIPs are proposed on the[ Root DAO Snapshot page](https://snapshot.org/#/rootsmoney.eth). Root owners can vote on RIPs on the Snapshot page.
 
