@@ -35,4 +35,3 @@
 * ****[**Root Discord**](https://discord.gg/rootmarkets)****
 * ****[**Root Twitter**](https://twitter.com/rootmarkets)****
 * [Root Twitter Bot](https://twitter.com/rootsmoney)
-* [Root Telegram Tracker](https://t.me/RootTokenTracker)

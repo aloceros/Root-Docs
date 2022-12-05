@@ -3,6 +3,7 @@
 * [Root](README.md)
 * [Risks](risks.md)
 * [Whitepaper](https://roottoken.org/root.pdf)
+* [Beanstalk Docs](https://docs.bean.money/almanac)
 
 ## 🥕 Mechanics
 
