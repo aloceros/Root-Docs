@@ -8,9 +8,9 @@ The Root DAO Multisig (RDM) custodies ownership of the [Root contract](../../res
 
 The Root contract is guarded by a 4/7 multisig. This means any changes to the Root contract must be approved by at least 4 signers of the 7 signers in total.
 
-### RTM Members
+### RDM Members
 
-Mistermanifold currently holds 1 of the 7 keys on the BCM. The identities of the remaining signers are anonymous per [#anonymous-multisig-signers](rdm-process.md#anonymous-multisig-signers "mention")
+Mistermanifold currently holds 1 of the 7 keys on the RDM. The identities of the remaining signers are anonymous per [#anonymous-multisig-signers](rdm-process.md#anonymous-multisig-signers "mention")
 
 | Address                                                                                                               | Verification tx                                                              | Date of last tx                                                                                  |
 | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |

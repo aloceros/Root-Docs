@@ -10,13 +10,13 @@ The RDM will provide sufficient notice of the submission of a RIP, its contents 
 
 ## **Multisig Powers**
 
-Root is an upgradable contract that uses[ OpenZeppelin’s UUPS](https://docs.openzeppelin.com/contracts/4.x/api/proxy#UUPSUpgradeable) implementation.
+Root is an upgradable contract that uses [OpenZeppelin’s UUPS](https://docs.openzeppelin.com/contracts/4.x/api/proxy#UUPSUpgradeable) implementation.
 
 The mechanism for upgrading Root is by calling either `upgradeTo()`, which takes an argument of the new implementation address, or `upgradeToAndCall()`, which takes arguments of a new implementation address and an optional function call. The `upgradeTo()` and `upgradeToAndCall()` functions will only be callable by the owner of Root, which will be the RDM.
 
 Upgrades should only be executed after a Snapshot has passed and Signers have manually reviewed the code changes. However, in the case of an emergency (like a serious bug or exploit), the RDM may execute transactions to protect the Root contract. The best practices for emergency response handling are outlined in the [#emergency-response-procedures](rdm-process.md#emergency-response-procedures "mention") section.
 
-If a community member wants to propose a RIP, they can submit a pull request to the[ Root Token Github repo](https://github.com/RootToken) and begin a formal process with the RTM outlined in the [#proposing-a-rip](rdm-process.md#proposing-a-rip "mention") section.
+If a community member wants to propose a RIP, they can submit a pull request to the [Root Token Github repo](https://github.com/RootToken) and begin a formal process with the RTM outlined in the [#proposing-a-rip](rdm-process.md#proposing-a-rip "mention") section.
 
 The following functions are also only callable from the owner address:
 
@@ -32,7 +32,7 @@ The following functions are also only callable from the owner address:
 
 The RDM is an extension of Root DAO. As such, the RDM’s role is to 1) enact on-chain the decisions Root holders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
-RIPs are voted on at the[ Root DAO Snapshot page](https://snapshot.org/#/rootsmoney.eth).
+RIPs are voted on at the [Root DAO Snapshot page](https://snapshot.org/#/rootsmoney.eth).
 
 The RTM shall not execute transactions until an associated Snapshot successfully passes in favor of the proposal, except in the case of emergency, cancelling a failed transaction or adding/removing/rotating RTM Signers. Below are the scenarios the RTM will adhere to when transacting:
 
@@ -100,7 +100,7 @@ In addition to the above expectations, Signers shall follow the RDM's wallet sec
 1. Use a reputable hardware wallet like Trezor or Ledger;
 2. Use a fresh wallet that doesn't have any pre-existing transactions or balances on it;
 3. Set up a new passphrase on their hardware wallet device when selecting a new wallet to be the signing wallet; and
-4. Follow the standard self-custody best practice guide[ here](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/).
+4. Follow the standard self-custody best practice guide [here](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/).
 
 ## **Signer Duties**
 
@@ -108,7 +108,7 @@ Signers are expected to follow best practices and maintain active communication 
 
 When a draft RIP is proposed, every Signer shall be notified of the timeline and shall confirm access to their wallet.
 
-Once a RIP Snapshot is proposed, all Signers are expected to promptly review and verify that the proposed code changes are accurately represented. After a Signer has followed the guide laid out in the [#reviewing-and-signing-off-on-transactions](rdm-process.md#reviewing-and-signing-off-on-transactions "mention") section, they will submit and sign an etherscan message that publicly confirms their review. This will 1) limit blind signing and 2) encourage each Signer to verify that a RIP’s code changes are accurately represented and distributed to the public. The steps to create and verify a signature on etherscan can be found[ here](https://info.etherscan.com/verify-signature-tool/). Anyone can verify that the Signer reviewed and signed off on the proposed code changes during the Voting Period.
+Once a RIP Snapshot is proposed, all Signers are expected to promptly review and verify that the proposed code changes are accurately represented. After a Signer has followed the guide laid out in the [#reviewing-and-signing-off-on-transactions](rdm-process.md#reviewing-and-signing-off-on-transactions "mention") section, they will submit and sign an etherscan message that publicly confirms their review. This will 1) limit blind signing and 2) encourage each Signer to verify that a RIP’s code changes are accurately represented and distributed to the public. The steps to create and verify a signature on etherscan can be found [here](https://info.etherscan.com/verify-signature-tool/). Anyone can verify that the Signer reviewed and signed off on the proposed code changes during the Voting Period.
 
 Signers will sign the transaction to either execute the proposed transaction or cancel it as soon as possible following the conclusion of the Voting Period.
 
@@ -127,11 +127,11 @@ The RDM’s role is to 1) enact on-chain the decisions Root Token Holders make v
 **Depending on the severity of a given emergency, RDM members shall swiftly decide the best course of action:**
 
 * If an emergency is severe and requires significant code changes to fix, the RDM will take any necessary extra action to mitigate further damage; or
-* If an emergency is minor and does not require significant code changes, an emergency hotfix may be implemented by an emergency vote of the RDMΩ.
+* If an emergency is minor and does not require significant code changes, an emergency hotfix may be implemented by an emergency vote of the RDM.
 
 Any changes made to Beanstalk in this manner are known as ERIPs, or Emergency RIPs.
 
-**After emergency action is taken, the RDm shall swiftly issue a summarized report to the community detailing:**
+**After emergency action is taken, the RDM shall swiftly issue a summarized report to the community detailing:**
 
 1. The administrative permissions that were used (e.g. upgrading Root or turning off certain functions);
 2. The context and severity of the issue; and&#x20;
@@ -150,7 +150,7 @@ As a part of submitting RIPs, the proposer will be responsible for providing tho
 * Review Github PR change log (naming or other small nits)&#x20;
 * Review constants (contract addresses, numbers) in new contracts
 
-Once Signers have verified the transaction, they shall submit and sign a[ verified etherscan message](https://info.etherscan.com/verify-signature-tool/) and distribute the public verification link to the RDM
+Once Signers have verified the transaction, they shall submit and sign a [verified etherscan message](https://info.etherscan.com/verify-signature-tool/) and distribute the public verification link to the RDM.
 
 {% hint style="warning" %}
 Note: In cases where RSPs are simply voting in a governance process, the RDM signers are not expected to perform the full verification process required for RIPs.
