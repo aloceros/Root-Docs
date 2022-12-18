@@ -2,40 +2,52 @@
 
 This page is a comprehensive overview of all proposals types as it pertains to governance of Root.
 
-**Table of Contents:**
+### Table of Contents
 
-* [Root Improvement Proposals](proposals.md#rip) (RIPs)
-* [Root Stalk Proposals](proposals.md#rsp) (RSPs)
+* [Notes](proposals.md#notes)
+* [Root Improvement Proposal](proposals.md#rip) (RIP)
+* [Root Stalk Proposal](proposals.md#rsp) (RSP)
 
-### RIP <a href="#rip" id="rip"></a>
+## Notes
 
-Root Improvement Proposals, or RIPs, are proposals to change the Root protocol. Any account that owns Roots can participate in Root governance. Any account can become a Root Holder and participate in Root governance by Minting Roots for Beanstalk Silo Deposits on the Minting Whitelist through Root at any time. Any account that owns more than 0.1% of total outstanding Roots can submit a RIP to the [Root DAO Snapshot](https://snapshot.org/#/rootsmoney.eth) via the Root DAO Multisig (RDM). A Root holder’s voting power is proportional to their Root balance relative to the total Root supply.
+In all cases:
 
-Root DAO only accepts votes in favor of RIPs. An account’s vote for a given RIP is counted as the minimum of its Roots between the beginning and end of the Voting Period.
+* A Root Holder's vote for a given proposal is counted as their minimum Roots between the beginning and end of the Voting Period, or **Voting Roots**;
+* 1 Voting Root equals 1 vote;
+* Voting Abstain is equivalent to voting Against;
+* The Root being used in the Snapshot vote must not be corrupted by multi-block MEV or any other similar manipulation around the block indicating the beginning of the Voting Period; and
+* The proposer must meet the minimum Root threshold to propose at both the beginning and end of the Voting Period (in Voting Root terms).
 
-Voting for RIPs will take place on Snapshot, using Root ownership at the time of proposal on Snapshot. The Voting Period opens when a vote for a RIP can be submitted to Snapshot and ends at approximately the beginning of the 168th Beanstalk Season after it begins, or when the RIP is committed with a supermajority. Any Root holder can vote for or against any Snapshot proposal. In all instances, 1 Root equals 1 vote, and voting against a proposal is equivalent to abstaining.
+All past proposals can be read [here](https://github.com/RootToken/Root-Governance-Proposals).
 
-If at the end of the Voting Period:
+## Root Improvement Proposal <a href="#rip" id="rip"></a>
 
-* Less than or equal to half of the total outstanding eligible Roots votes in favor of the RIP, it fails; and
-* More than half of the total outstanding eligible Roots votes in favor of the RIP, it passes.&#x20;
+Root Improvement Proposals, or RIPs, are proposals to change Root or Root governance. Any Root Holder that owns at least 0.1% of total Roots can propose a RIP. Any Root Holder can vote For or Abstain.
 
-If at any time before the end of the Voting Period more than two-thirds of the total outstanding eligible Root votes in favor of the RIP, it passes and the RDM can commit and execute the RIP on-chain.
+The Voting Period opens when the Snapshot proposal for a RIP can be voted on and closes after 7 days or when it is committed with a supermajority.&#x20;
 
-Root’s governance is modeled after Beanstalk’s governance. Root governance is designed to be as censorship resistant as possible. Any community member may submit RIPs. If a community member wishes to propose a RIP, they will need to complete a public proposal process on Discord and submit a Github pull request before the RDM will submit a Snapshot on their behalf.
+If at the end of the Voting Period:&#x20;
 
-RIPs are proposed on the [Root DAO Snapshot page](https://snapshot.org/#/rootsmoney.eth). Past RIPs can be read [here](https://github.com/RootToken/Root-Governance-Proposals/tree/main/rip).
+* Less than or equal to 50% of the total Voting Roots votes For the RIP, it fails, or&#x20;
+* More than 50% of the total Voting Roots votes For the RIP, it passes.&#x20;
 
-### RSP
+If at any time 24 hours or more after the beginning and before the end of the Voting Period more than two-thirds of the total Voting Roots votes For the BIP, the Root DAO Multisig (RDM) can execute the RIP.
 
-In its capacity as a Stalkholder, [0x77700005BEA4DE0A78b956517f099260C2CA9a26](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26) is entitled to vote on (1) each BIP and (2) other, non-BIP, governance processes, and may be entitled to non-Beanstalk-native yields.
+BIPs are proposed on the [Root DAO Snapshot page](https://snapshot.org/#/rootsmoney.eth). Past BIPs can be read [here](https://github.com/RootToken/Root-Governance-Proposals/tree/main/rip).&#x20;
 
-Root Stalk Proposals (RSPs) are proposals for [0x77700005BEA4DE0A78b956517f099260C2CA9a26](https://etherscan.io/address/0x77700005BEA4DE0A78b956517f099260C2CA9a26) to determine how Root should use its Stalk in each governance process, and distribute yield, if ever.
+See [#rip-proposal-process](root-token/rdm-process.md#rip-proposal-process "mention") in [RDM Process](root-token/rdm-process.md) for more information on proposing a RIP.
 
-Any BIP will automatically qualify to be proposed to Root DAO as an RSP. The RDM will repost BIPs on the [Root DAO Snapshot page](https://snapshot.org/#/rootsmoney.eth) as soon as possible after they are posted to the [Beanstalk DAO Snapshot](https://snapshot.org/#/beanstalkdao.eth/) page. The RDM will vote on each BIP as determined by the RSP.
+## Root Stalk Proposal <a href="#rsp" id="rsp"></a>
 
-For other governance processes, any Root holder can propose a Root Stalk Proposal (RSP) on the [RSP Snapshot page](https://snapshot.org/#/rootstalkproposals.eth) to determine how Root should use its Stalk.
+Root Stalk Proposals, or RSPs, are proposals to determine how Root should use its Stalk to vote in non-BIP governance proposals, and distribute yield, if ever. Any Root Holder can propose a RSP and vote For or Abstain.
 
-RSPs follow the same structure as RIPs, except that the length of the Voting Period can be reasonably shortened to ensure the will of Root DAO can be reflected in the governance process when appropriate.
+The Voting Period for RSPs is 7 days by default but can be reasonably shortened to ensure the will of Root DAO can be reflected in the governance process.
 
-RIPs are proposed on the [RSP Snapshot page](https://snapshot.org/#/rootstalkproposals.eth). Past RSPs can be read [here](https://github.com/RootToken/Root-Governance-Proposals/tree/main/rsp).
+If at the end of the Voting Period:&#x20;
+
+* Less than or equal to 50% of the total Voting Roots votes For the RSP, it fails, or&#x20;
+* More than 50% of the total Voting Roots votes For the RSP, it passes.&#x20;
+
+RIPs are proposed on the [Root Stalk Proposals Snapshot page](https://snapshot.org/#/rootstalkproposals.eth). Past RSPs can be read [here](https://github.com/RootToken/Root-Governance-Proposals/tree/main/rsp).
+
+See [#rsp-proposal-process](root-token/rdm-process.md#rsp-proposal-process "mention") in [RDM Process](root-token/rdm-process.md) for more information on proposing a RSP.
