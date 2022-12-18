@@ -7,7 +7,7 @@ This page is a comprehensive overview of all proposals types as it pertains to g
 * [Root Improvement Proposals](proposals.md#rip) (RIPs)
 * [Root Stalk Proposals](proposals.md#rsp) (RSPs)
 
-### RIP
+### RIP <a href="#rip" id="rip"></a>
 
 Root Improvement Proposals, or RIPs, are proposals to change the Root protocol. Any account that owns Roots can participate in Root governance. Any account can become a Root Holder and participate in Root governance by Minting Roots for Beanstalk Silo Deposits on the Minting Whitelist through Root at any time. Any account that owns more than 0.1% of total outstanding Roots can submit a RIP to the [Root DAO Snapshot](https://snapshot.org/#/rootsmoney.eth) via the Root DAO Multisig (RDM). A Root holder’s voting power is proportional to their Root balance relative to the total Root supply.
 

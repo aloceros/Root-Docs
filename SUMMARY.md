@@ -5,9 +5,10 @@
 * [Whitepaper](https://roottoken.org/root.pdf)
 * [Beanstalk Docs](https://docs.bean.money/almanac)
 
-## 🥕 Mechanics
+## 🥕 Introduction <a href="#intro" id="intro"></a>
 
-* [Overview](mechanics/overview.md)
+* [Overview](intro/overview.md)
+* [Mechanics](intro/mechanics.md)
 
 ## 🏛 Governance
 
@@ -15,6 +16,10 @@
   * [RDM Process](governance/root-token/rdm-process.md)
   * [RDM Dashboard](governance/root-token/rdm-dashboard.md)
 * [Proposals](governance/proposals.md)
+
+## 🗺 Guides
+
+* [Bet with Roots on Paradox](guides/bet-with-roots-on-paradox.md)
 
 ## 🌐 Ecosystem
 
