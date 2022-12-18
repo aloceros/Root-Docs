@@ -1,6 +1,6 @@
 # RDM Dashboard
 
-The Root DAO Multisig (RDM) custodies ownership of the [Root contract](../../resources/contracts.md). The RDM is able to propose, execute and upgrade Root.
+The Root DAO Multisig (RDM) custodies ownership of the [Root contract](../../resources/contracts.md). The RDM is able to propose and execute RIPs that upgrade Root.
 
 **Root DAO Multisig Safe address:** [0xb7774ec5031e1d903152E96BbC1601e5D0D83Ca2](https://etherscan.io/address/0xb7774ec5031e1d903152E96BbC1601e5D0D83Ca2)
 
