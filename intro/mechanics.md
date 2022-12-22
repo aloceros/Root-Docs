@@ -26,7 +26,7 @@ The amount of Root received will be the greater of the minimum amount of Root sp
 
 To Redeem Root, an account must call the `redeem` function and provide a maximum amount of Root to Redeem, and a list of Beanstalk Silo Deposits currently owned by Root.
 
-The amount of Root needed to Redeem a list of Beanstalk Silo Deposits is the lesser of the amount specified, or the maximum of the percentage change in the BDV, Stalk, or Seeds of Root resulting from the Redemption.
+The amount of Root needed to Redeem a list of Beanstalk Silo Deposits is the lesser of the amount specified, or the maximum of the percentage change in the BDV, Stalk, or Seeds of Root resulting from the Redemption, multiplied by the total Root supply.
 
 ### Earn
 
