@@ -1,6 +1,6 @@
 # Mechanics
 
-Any Ethereum account can Mint and Redeem Roots for Beanstalk Silo Deposits on the Minting Whitelist through Root at anytime. Anytime Roots are Minted or Redeemed, the BDV, Stalk and Seeds per either remain the same or increase.&#x20;
+Any Ethereum account can Mint and Redeem Roots for Beanstalk Silo Deposits on the Minting Whitelist through Root at anytime. Anytime Roots are Minted or Redeemed, the [BDV](https://docs.bean.money/almanac/protocol/glossary#bean-denominated-value), [Stalk](https://docs.bean.money/almanac/protocol/glossary#stalk) and [Seeds](https://docs.bean.money/almanac/protocol/glossary#seeds) per either remain the same or increase.&#x20;
 
 All value in Root is owned pro rata by Root Holders. Any account can contribute to collective farming by calling the `earn`, `mow`, `updateBDV` and `updateBDVs` functions.
 
@@ -18,20 +18,26 @@ Any Beanstalk Silo Deposit of a token on the Minting Whitelist can be used to Mi
 
 ### Mint
 
-🌱 Coming soon!
+To Mint Root, an account must call the `mint` function and provide a minimum amount of Root to Mint, and a list of Beanstalk Silo Deposits on the Minting Whitelist that are not currently owned by Root.
+
+The amount of Root received will be the greater of the minimum amount of Root specified, or the minimum of the percentage change in the BDV, Stalk, or Seeds of Root resulting from the Mint, multiplied by the total Root supply.
 
 ### Redeem
 
-🌱 Coming soon!
+To Redeem Root, an account must call the `redeem` function and provide a maximum amount of Root to Redeem, and a list of Beanstalk Silo Deposits currently owned by Root.
+
+The amount of Root needed to Redeem a list of Beanstalk Silo Deposits is the lesser of the amount specified, or the maximum of the percentage change in the BDV, Stalk, or Seeds of Root resulting from the Redemption.
 
 ### Earn
 
-🌱 Coming soon!
+The `earn` function can be called by any account to [Mow](https://docs.bean.money/almanac/protocol/glossary#mow) all of Root’s [Grown Stalk](https://docs.bean.money/almanac/protocol/glossary#grown-stalk), [Plant](https://docs.bean.money/almanac/protocol/glossary#plant) the Seeds associated with Root’s [Earned Beans](https://docs.bean.money/almanac/protocol/glossary#earned-beans) and Deposit Root’s Earned Beans in the current [Season](https://docs.bean.money/almanac/protocol/glossary#season).
+
+This is the only instance the Stalk or Seed per BDV ratios of Root may decrease.
 
 ### Mow
 
-🌱 Coming soon!
+The `mow` function can be called by any account to Mow all of Root’s Grown Stalk.
 
 ### Update BDV
 
-🌱 Coming soon!
+Any account can update the BDV of one or multiple of Root’s Silo Deposits by calling the `updateBdv` or `updateBdvs` functions, respectively.
